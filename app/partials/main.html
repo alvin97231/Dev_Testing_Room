@@ -3,9 +3,9 @@
             layout="column" layout-fill>
     <header class="nav-header">
         <a data-ui-sref="main" class="logo">
-            <img src="images/logo-soft-grey.png" alt=""/>
+            <img src="images/logo-white.png" alt=""/>
 
-            <h1>WorkingRoom</h1>
+            <h1>TestingRoom</h1>
         </a>
         <md-divider></md-divider>
     </header>
@@ -16,7 +16,7 @@
                 <span>{{ 'SIDENAV_MODULES' | translate }}</span>
             </md-list-item>
             <md-list-item data-ng-repeat="module in vm.modules">
-                <md-button data-ui-sref="main.modules({id: module.$id})" data-ui-sref-active="active">{{module.name}}</md-button>
+                <md-button class="md-accent" data-ui-sref="main.modules({id: module.$id})" data-ui-sref-active="active">{{module.name}}</md-button>
             </md-list-item>
         </md-list>
 

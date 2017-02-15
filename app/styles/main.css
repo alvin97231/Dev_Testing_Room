@@ -105,7 +105,6 @@ md-sidenav {
   md-sidenav md-list md-list-item a {
     width: 100%;
     text-align: justify !important;
-    color: #e53689 !important;
     margin: 0 !important;
     padding: 5px 20px !important;
     border-radius: 0 !important;

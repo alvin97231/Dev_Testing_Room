@@ -2,7 +2,9 @@
   "name": "WorkingRoom",
   "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp",
+    "bower": "bower",
+    "firebase": "firebase"
   },
   "dependencies": {
     "angular-uid": "^0.1.1",
@@ -22,7 +24,7 @@
     "gulp": "^3.9.0",
     "gulp-angular-filesort": "^1.1.1",
     "gulp-autoprefixer": "^3.0.1",
-    "gulp-clip-empty-files": "^0.1.1",
+    "gulp-clip-empty-files": "^0.1.2",
     "gulp-concat": "^2.6.0",
     "gulp-filesize": "0.0.6",
     "gulp-if": "^1.2.5",
@@ -49,11 +51,6 @@
     "require-dir": "^0.3",
     "wiredep": "^2.2.2"
   },
-  "scripts": {
-       "gulp": "gulp",
-       "bower": "bower",
-       "firebase":"firebase"
-   },
   "engines": {
     "node": ">=0.10.0"
   },
